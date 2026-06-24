@@ -7,7 +7,7 @@
   <meta name="description" content="Perca gordura visceral e ganhe massa muscular ao mesmo tempo com o método Emagrecimento Anabólico. Dr. Diego Ribeiro. Campo Mourão e Londrina." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
   <style>
     /* ── RESET & BASE ── */
@@ -17,13 +17,13 @@
       --gold:        #c9a84c;
       --gold-light:  #e0c070;
       --gold-dark:   #9a7a30;
-      --bg:          #0a0a0a;
-      --surface:     #111111;
-      --surface-2:   #161616;
-      --surface-3:   #1e1e1e;
-      --text:        #e8e8e8;
-      --text-muted:  #888888;
-      --text-subtle: #555555;
+      --bg:          #080808;
+      --surface:     #0f0f0f;
+      --surface-2:   #141414;
+      --surface-3:   #1a1a1a;
+      --text:        #f0f0f0;
+      --text-muted:  #aaaaaa;
+      --text-subtle: #666666;
       --danger:      #c94c4c;
       --radius:      12px;
       --transition:  0.35s cubic-bezier(0.4, 0, 0.2, 1);
@@ -45,8 +45,9 @@
 
     /* ── TYPOGRAPHY ── */
     h1, h2, h3, h4 {
-      font-family: 'Playfair Display', serif;
-      line-height: 1.2;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
     }
 
     .section-label {
@@ -165,11 +166,11 @@
 
     .header-logo { display: flex; flex-direction: column; }
     .header-logo .name {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Inter', sans-serif;
       font-size: 1.05rem;
-      font-weight: 700;
-      color: var(--text);
-      letter-spacing: 0.01em;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.01em;
     }
     .header-logo .specialty {
       font-size: 0.7rem;
@@ -228,20 +229,22 @@
     .hero-eyebrow span { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); display: inline-block; }
 
     #hero h1 {
-      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      font-size: clamp(2.4rem, 5.5vw, 4rem);
       font-weight: 900;
-      line-height: 1.1;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
       margin-bottom: 1.5rem;
       color: #fff;
     }
     #hero h1 em { font-style: normal; color: var(--gold); }
 
     .hero-sub {
-      font-size: 1.1rem;
-      color: var(--text-muted);
+      font-size: 1.15rem;
+      color: #c8c8c8;
       max-width: 560px;
       margin-bottom: 2.5rem;
       line-height: 1.7;
+      font-weight: 400;
     }
 
     .hero-ctas {
@@ -300,11 +303,12 @@
       border-top: 1px solid rgba(255,255,255,0.07);
     }
     .stat-number {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Inter', sans-serif;
       font-size: 2rem;
-      font-weight: 700;
+      font-weight: 800;
       color: var(--gold);
       line-height: 1;
+      letter-spacing: -0.03em;
     }
     .stat-label {
       font-size: 0.72rem;
@@ -338,12 +342,12 @@
     }
 
     .problema-left h2 {
-      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
-      font-weight: 700;
+      font-size: clamp(1.9rem, 3.5vw, 3rem);
+      font-weight: 800;
       color: #fff;
       margin-bottom: 1.25rem;
     }
-    .problema-left p { color: var(--text-muted); line-height: 1.8; margin-bottom: 1rem; }
+    .problema-left p { color: #b8b8b8; line-height: 1.8; margin-bottom: 1rem; }
 
     blockquote.hook {
       position: relative;
@@ -354,10 +358,11 @@
       border-radius: 0 var(--radius) var(--radius) 0;
     }
     blockquote.hook p {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Inter', sans-serif;
       font-size: 1.05rem;
       font-style: italic;
-      color: var(--text);
+      font-weight: 500;
+      color: #e8e8e8;
       line-height: 1.7;
       margin: 0;
     }
@@ -366,7 +371,7 @@
       margin-top: 0.75rem;
       font-style: normal;
       font-size: 0.78rem;
-      font-weight: 600;
+      font-weight: 700;
       color: var(--gold);
       letter-spacing: 0.06em;
     }
@@ -407,8 +412,8 @@
       color: var(--gold);
     }
     .cycle-icon.danger { background: rgba(201, 76, 76, 0.1); color: var(--danger); }
-    .cycle-text { font-size: 0.88rem; color: var(--text-muted); line-height: 1.5; }
-    .cycle-text strong { color: var(--text); display: block; font-size: 0.9rem; margin-bottom: 0.15rem; }
+    .cycle-text { font-size: 0.88rem; color: #aaaaaa; line-height: 1.5; }
+    .cycle-text strong { color: #f0f0f0; display: block; font-size: 0.92rem; font-weight: 700; margin-bottom: 0.15rem; }
     .cycle-arrow { text-align: center; color: var(--gold-dark); font-size: 1.25rem; line-height: 1; padding: 0.3rem 0; }
 
     /* ═══════════════════════════════════════
@@ -429,8 +434,8 @@
       gap: 5rem;
       align-items: center;
     }
-    .solucao-right h2 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 700; color: #fff; margin-bottom: 1rem; }
-    .solucao-right p { color: var(--text-muted); line-height: 1.8; margin-bottom: 1rem; }
+    .solucao-right h2 { font-size: clamp(1.9rem, 3.5vw, 3rem); font-weight: 800; color: #fff; margin-bottom: 1rem; }
+    .solucao-right p { color: #b8b8b8; line-height: 1.8; margin-bottom: 1rem; }
 
     .solucao-pillars { display: flex; flex-direction: column; gap: 1rem; margin-top: 1.75rem; }
     .pillar { display: flex; align-items: flex-start; gap: 1rem; }
@@ -442,8 +447,8 @@
       display: flex; align-items: center; justify-content: center;
       flex-shrink: 0; color: var(--gold);
     }
-    .pillar-text h4 { font-family: 'Inter', sans-serif; font-size: 0.92rem; font-weight: 600; color: var(--text); margin-bottom: 0.2rem; }
-    .pillar-text p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.5; margin: 0; }
+    .pillar-text h4 { font-family: 'Inter', sans-serif; font-size: 0.95rem; font-weight: 700; color: #f0f0f0; margin-bottom: 0.2rem; }
+    .pillar-text p { font-size: 0.83rem; color: #aaaaaa; line-height: 1.6; margin: 0; }
 
     .solucao-visual { display: flex; flex-direction: column; gap: 1rem; }
     .anabolic-card {
@@ -461,8 +466,9 @@
       background: radial-gradient(ellipse at top center, rgba(201,168,76,0.06) 0%, transparent 60%);
     }
     .anabolic-badge {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Inter', sans-serif;
       font-size: 1.4rem; font-weight: 900; font-style: italic;
+      letter-spacing: -0.02em;
       color: var(--gold); position: relative;
     }
     .anabolic-sub { font-size: 0.78rem; color: var(--text-subtle); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.3rem; position: relative; }
@@ -474,10 +480,10 @@
     .vs-col { background: var(--surface-2); border-radius: 10px; padding: 1.25rem 1rem; text-align: center; }
     .vs-col.highlight { border: 1px solid rgba(201,168,76,0.3); }
     .vs-col-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-subtle); margin-bottom: 0.5rem; }
-    .vs-col-value { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 700; line-height: 1; }
+    .vs-col-value { font-family: 'Inter', sans-serif; font-size: 1.6rem; font-weight: 900; line-height: 1; }
     .vs-col.highlight .vs-col-value { color: var(--gold); }
     .vs-col-desc { font-size: 0.7rem; color: var(--text-muted); margin-top: 0.35rem; }
-    .vs-sign { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--gold-dark); text-align: center; }
+    .vs-sign { font-family: 'Inter', sans-serif; font-size: 2rem; font-weight: 900; color: var(--gold-dark); text-align: center; }
 
     .result-row { display: flex; align-items: center; gap: 0.5rem; justify-content: center; margin-top: 1.25rem; position: relative; }
     .result-badge {
@@ -496,8 +502,8 @@
     }
 
     .section-header { text-align: center; margin-bottom: 3.5rem; }
-    .section-header h2 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 700; color: #fff; }
-    .section-header p { color: var(--text-muted); max-width: 520px; margin: 1rem auto 0; }
+    .section-header h2 { font-size: clamp(1.9rem, 3.5vw, 3rem); font-weight: 800; color: #fff; }
+    .section-header p { color: #b8b8b8; max-width: 520px; margin: 1rem auto 0; }
     .section-header .gold-line { margin: 1.25rem auto 0; }
 
     .treatments-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
@@ -522,8 +528,8 @@
       display: flex; align-items: center; justify-content: center;
       margin-bottom: 1.1rem; color: var(--gold);
     }
-    .treatment-name { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 600; color: var(--text); margin-bottom: 0.4rem; }
-    .treatment-desc { font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; }
+    .treatment-name { font-family: 'Inter', sans-serif; font-size: 0.97rem; font-weight: 700; color: #f0f0f0; margin-bottom: 0.4rem; }
+    .treatment-desc { font-size: 0.82rem; color: #aaaaaa; line-height: 1.6; }
 
     /* ═══════════════════════════════════════
        PARA QUEM
@@ -535,11 +541,11 @@
       pointer-events: none;
     }
     .para-quem-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
-    .para-quem-left h2 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 700; color: #fff; margin-bottom: 0.75rem; }
-    .para-quem-left p { color: var(--text-muted); margin-bottom: 2rem; }
+    .para-quem-left h2 { font-size: clamp(1.9rem, 3.5vw, 3rem); font-weight: 800; color: #fff; margin-bottom: 0.75rem; }
+    .para-quem-left p { color: #b8b8b8; margin-bottom: 2rem; }
 
     .check-list { list-style: none; display: flex; flex-direction: column; gap: 0.85rem; }
-    .check-list li { display: flex; align-items: flex-start; gap: 0.85rem; font-size: 0.92rem; color: var(--text-muted); line-height: 1.5; }
+    .check-list li { display: flex; align-items: flex-start; gap: 0.85rem; font-size: 0.95rem; color: #c8c8c8; line-height: 1.5; }
     .check-list li::before {
       content: '';
       display: inline-block; width: 20px; height: 20px; flex-shrink: 0; margin-top: 0.1rem;
@@ -561,8 +567,8 @@
       display: flex; align-items: center; justify-content: center;
       flex-shrink: 0; color: var(--danger);
     }
-    .warning-box .w-text h4 { font-family: 'Inter', sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--text); margin-bottom: 0.2rem; }
-    .warning-box .w-text p { font-size: 0.78rem; color: #888; margin: 0; line-height: 1.5; }
+    .warning-box .w-text h4 { font-family: 'Inter', sans-serif; font-size: 0.88rem; font-weight: 700; color: #f0f0f0; margin-bottom: 0.2rem; }
+    .warning-box .w-text p { font-size: 0.8rem; color: #aaaaaa; margin: 0; line-height: 1.5; }
     .warning-box.positive { background: rgba(201, 168, 76, 0.05); border-color: rgba(201, 168, 76, 0.2); }
     .warning-box.positive .w-icon { background: rgba(201, 168, 76, 0.1); color: var(--gold); }
 
@@ -593,8 +599,8 @@
       margin: 0 auto 1.5rem; position: relative; z-index: 1;
       box-shadow: 0 0 0 6px rgba(201,168,76,0.1);
     }
-    .step-card h3 { font-size: 1.05rem; font-weight: 600; color: var(--text); margin-bottom: 0.5rem; }
-    .step-card p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.7; }
+    .step-card h3 { font-size: 1.05rem; font-weight: 800; color: #f0f0f0; margin-bottom: 0.5rem; }
+    .step-card p { font-size: 0.87rem; color: #b0b0b0; line-height: 1.7; }
 
     /* ═══════════════════════════════════════
        CONSULTA
@@ -608,8 +614,8 @@
       pointer-events: none;
     }
     .consulta-inner { display: grid; grid-template-columns: 1fr 1.2fr; gap: 5rem; align-items: start; }
-    .consulta-left h2 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 700; color: #fff; margin-bottom: 1rem; }
-    .consulta-left p { color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.8; }
+    .consulta-left h2 { font-size: clamp(1.9rem, 3.5vw, 3rem); font-weight: 800; color: #fff; margin-bottom: 1rem; }
+    .consulta-left p { color: #b8b8b8; margin-bottom: 1.5rem; line-height: 1.8; }
 
     .price-box {
       background: var(--surface);
@@ -622,13 +628,10 @@
       content: ''; position: absolute; inset: 0;
       background: radial-gradient(ellipse at top, rgba(201,168,76,0.08) 0%, transparent 60%);
     }
-    .price-tag { font-family: 'Playfair Display', serif; font-size: 0.8rem; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.5rem; position: relative; }
-    .price-value { font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 900; color: var(--gold); line-height: 1; position: relative; }
-    .price-value sup { font-size: 1.5rem; vertical-align: super; font-weight: 400; }
-    .price-note { font-size: 0.78rem; color: var(--text-subtle); margin-top: 0.5rem; position: relative; }
+    .price-tag { font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 1rem; position: relative; }
 
     .includes-list { list-style: none; margin-top: 1.75rem; display: flex; flex-direction: column; gap: 0.7rem; text-align: left; position: relative; }
-    .includes-list li { display: flex; align-items: center; gap: 0.7rem; font-size: 0.85rem; color: var(--text-muted); }
+    .includes-list li { display: flex; align-items: center; gap: 0.7rem; font-size: 0.88rem; color: #c8c8c8; }
     .includes-list li svg { color: var(--gold); flex-shrink: 0; }
 
     .payment-section { margin-top: 1.75rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.06); position: relative; }
@@ -659,8 +662,8 @@
         linear-gradient(180deg, var(--bg) 0%, var(--surface) 50%, var(--bg) 100%);
     }
     .cta-final-inner { position: relative; max-width: 680px; margin: 0 auto; }
-    #cta-final h2 { font-size: clamp(2rem, 4.5vw, 3.2rem); font-weight: 900; color: #fff; line-height: 1.15; margin-bottom: 1.25rem; }
-    #cta-final p { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2.5rem; }
+    #cta-final h2 { font-size: clamp(2.2rem, 4.5vw, 3.4rem); font-weight: 900; letter-spacing: -0.03em; color: #fff; line-height: 1.1; margin-bottom: 1.25rem; }
+    #cta-final p { color: #c0c0c0; font-size: 1.1rem; margin-bottom: 2.5rem; }
 
     .urgency {
       display: inline-flex; align-items: center; gap: 0.5rem;
@@ -683,7 +686,7 @@
     ═══════════════════════════════════════ */
     footer { background: #050505; border-top: 1px solid rgba(201, 168, 76, 0.08); padding: 3rem 0; }
     .footer-inner { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; flex-wrap: wrap; }
-    .footer-brand .name { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: var(--text); }
+    .footer-brand .name { font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 800; letter-spacing: -0.02em; color: var(--text); }
     .footer-brand .crm { font-size: 0.75rem; color: var(--text-subtle); margin-top: 0.2rem; }
     .footer-links { font-size: 0.8rem; color: var(--text-subtle); line-height: 2; text-align: right; }
     .footer-copy { width: 100%; text-align: center; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.04); font-size: 0.73rem; color: var(--text-subtle); }
